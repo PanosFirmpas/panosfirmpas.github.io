@@ -19,3 +19,21 @@ When we scatterplot all the pairs together, it makes more sense to plot a heatma
     
 We can correct the signal a bit, by subtracting a "control" heatmap (based on randomizing the gene connections)    
 ![Image of nacc](img/nacc_hm_ctled.png)
+    
+        
+Based on this, we say that we see a clear correlation between the homologous genes  
+between the species. When gene1 correlates well with geneN in amphi, gene1' in  
+zebra will tend to correlate well with gene1'.    
+    
+    
+### We will do something very similar
+We will make the homology list stricter, by only including the 1-1 gene pairs.    
+    
+We can now scatter plot two genes (g1, g1'), where xi will be the correlation of g1' and gi'  
+and where yi will be correlation of g1 and gi.    
+    
+We can also calculate a correlation between g1 and g1', based on their correlations with
+the stricter homology list, or else, how well the markers on the scatterplot correlate.    
+    
+This is nice example of two gene with a correlation >0.5:
+![Image of scatter](img/oto_scatter.png)
