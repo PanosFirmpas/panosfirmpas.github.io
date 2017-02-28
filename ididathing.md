@@ -39,13 +39,11 @@ This is nice example of two gene with a correlation >0.5:
     
 ![Image of scatter](img/oto_scatter.png)
 
-This is how all possible gene pairs look like, when compared through the stricter homology list:    
-![Image of scatter](img/all_homologies_heatmap.png)    
-And this the same "controlled":    
+This is how all possible gene pairs look like, when compared through the stricter homology list:       
 ![Image of scatter](img/all_homologies_ctrled_heatmap.png)    
-
-These are all the 1-1 gene connections, controlled:
+    
+These are all the 1-1 gene connections, controlled:    
 ![Image of scatter](img/oto_gene_connections_ctrled_heatmap.png)    
-And finally all the 1-x gene connections, controlled:
-![Image of scatter](img/otm_gene_connections_ctrled_heatmap.png)    
+And finally all the 1-x gene connections, controlled:    
+![Image of scatter](img/otm_gene_connections_ctrled_heatmap.png)      
 
