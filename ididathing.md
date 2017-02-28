@@ -39,11 +39,35 @@ This is nice example of two gene with a correlation >0.5:
     
 ![Image of scatter](img/oto_scatter.png)
 
-This is how all possible gene pairs look like, when compared through the stricter homology list:       
+This is how all possible gene pairs look like, when compared through the stricter homology list (controlled):       
 ![Image of scatter](img/all_homologies_ctrled_heatmap.png)    
     
 These are all the 1-1 gene connections, controlled:    
 ![Image of scatter](img/oto_gene_connections_ctrled_heatmap.png)    
 And finally all the 1-x gene connections, controlled:    
 ![Image of scatter](img/otm_gene_connections_ctrled_heatmap.png)      
+    
+        
+### Then  
+Remember we can now calculate the correlation of g1 to g1' ,
+by calculating the correlation of their correlations with the strict homology_list.    
+
+We will look for interesting gene families. We want gene families where    
+at least one of the ohnologues is well correlated with the amphioxus 'ancestor',    
+and at least one is either anti-correlated or is at least X amount less    
+correlated than the well-correlated ohnologue.    
+    
+We apply this logic and come up with 71 families and 141 pairs of honologues    
+where we detected a differential correlation to the 'ancestor gene'.     
+      
+We take all the well correlated genes, from the chosen pairs and plot them against the amphioxus gene:   
+![Image of scatter](img/loose_gf_correlated_genes.png)      
+
+Then the anticorrelated ohnologues, against the amphioxus gene :   
+![Image of scatter](img/loose_gf_non_correlated_genes.png)      
+    
+If we are a bit stricter with our selection (32 families, 44 genes) the anticorrelated genes look even nicer:   
+![Image of scatter](img/strict_gf_non_correlated_genes.png)      
+
+
 
