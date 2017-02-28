@@ -14,6 +14,8 @@ If we scatterplot these values against each other, it looks something like this:
 ![Image of scatter](img/oto_scatter.png)
 
 When we scatterplot all the pairs together, it makes more sense to plot a heatmap instead:    
-![Image of nacc](img/nacc_hm.png)
+![Image of nacc](img/nacc_hm.png)    
+    
+    
 We can correct the signal a bit, by subtracting a "control" heatmap (based on randomizing the gene connections)    
 ![Image of nacc](img/nacc_hm_ctled.png)
