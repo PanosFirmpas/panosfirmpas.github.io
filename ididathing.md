@@ -83,6 +83,8 @@ Now we have a list of anti-correlated ohnologues, and how much they gained or lo
 in each RNA sample.    
     
 And we can cluster them !    
+Red means that a gene is expressed more compared to its well-correlated-ohnologue in x tissue.   
+I hope those gene names make some sense !   
 ![Image of scatter](img/loose_gf_non_correlated_genes_clustermap.png)      
 
 
