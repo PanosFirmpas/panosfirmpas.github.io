@@ -60,14 +60,30 @@ correlated than the well-correlated ohnologue.
 We apply this logic and come up with 71 families and 141 pairs of honologues    
 where we detected a differential correlation to the 'ancestor gene'.     
       
-We take all the well correlated genes, from the chosen pairs and plot them against the amphioxus gene:   
+We take all the well correlated genes, from the chosen pairs and plot them against their amphioxus homologue:   
 ![Image of scatter](img/loose_gf_correlated_genes.png)      
 
-Then the anticorrelated ohnologues, against the amphioxus gene :   
+Then the anticorrelated ohnologues, against their amphioxus homologue:   
 ![Image of scatter](img/loose_gf_non_correlated_genes.png)      
     
 If we are a bit stricter with our selection (32 families, 44 genes) the anticorrelated genes look even nicer:   
 ![Image of scatter](img/strict_gf_non_correlated_genes.png)      
+
+
+
+
+### There's more !    
+    
+We made a list of pairs of ohnologues, with each pair having a correlated and an anticorrelated ohnologue.    
+For each anticorrelated ohnologue in each pair, and for each RNA sample we have, we will now calculate  
+how much the anticorrelated honologue *gained* or *lost* in expression, by substracting from its  
+expression value, the value of its well-correlated ohnologue.    
+    
+Now we have a list of anti-correlated ohnologues, and how much they gained or lost in expression  
+in each RNA sample.    
+    
+And we can cluster them !    
+![Image of scatter](img/loose_gf_non_correlated_genes_clustermap.png)      
 
 
 
