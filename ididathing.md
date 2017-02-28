@@ -35,5 +35,17 @@ and where yi will be correlation of g1 and gi.
 We can also calculate a correlation between g1 and g1', based on their correlations with
 the stricter homology list, or else, how well the markers on the scatterplot correlate.    
     
-This is nice example of two gene with a correlation >0.5:
+This is nice example of two gene with a correlation >0.5:    
+    
 ![Image of scatter](img/oto_scatter.png)
+
+This is how all possible gene pairs look like, when compared through the stricter homology list:    
+![Image of scatter](img/all_homologies_heatmap.png)    
+And this the same "controlled":    
+![Image of scatter](img/all_homologies_ctrled_heatmap.png)    
+
+These are all the 1-1 gene connections, controlled:
+![Image of scatter](img/oto_gene_connections_ctrled_heatmap.png)    
+And finally all the 1-x gene connections, controlled:
+![Image of scatter](img/otm_gene_connections_ctrled_heatmap.png)    
+
